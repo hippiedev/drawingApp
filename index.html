@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.0/p5.min.js"
+        integrity="sha512-tGZFF1kxT/c9C+kv77mKkZ9Ww1VyU8TMX6HLUSzbPrDLuptbiRFBfti8A33ip+BBIHYUsybuZD9OKLmIqdLmaQ=="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing App</title>
+</head>
+
+<body>
+    <div id="controls">
+        <div id="numberOfStrokesControl">Number of strokes: </div>
+        <div id="sizeOfStrokesControl">Size of strokes: </div>
+        <div id="strokeColor">Color: <input type="color" id="head" name="head" value="#00FFCC"></div>
+
+        <!--   
+             <select id="imageSelect">
+            <option value="star">star</option>
+            <option selected="selected" value="paint">paint</option>
+        </select>
+    -->
+    <div id="radio">
+        <input type="radio" name="star" value="star" id="star">
+        <label for="star">star</label>
+        <input type="radio" name="star" id="paint" value="paint" checked>
+        <label for="paint">paint</label>
+        <input type="radio" name="star" id="music note" value="music note">
+        <label for="music note">music note</label>
+    </div>
+
+        <p id="imageOption"></p>
+    </div>
+    <div id="canvas"></div>
+</body>
+<script src="sketch.js"></script>
+
+</html>
