@@ -33,6 +33,9 @@ body {
     border-radius: 20px;
     border-style: groove;
     border-color: rgb(109, 64, 34);
+    box-shadow: 6px 12px 21px -2px rgba(0,0,0,0.59);
+-webkit-box-shadow: 6px 12px 21px -2px rgba(0,0,0,0.59);
+-moz-box-shadow: 6px 12px 21px -2px rgba(0,0,0,0.59);
     background: rgb(255, 255, 255);
 }
 #radio {
