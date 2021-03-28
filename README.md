@@ -1,2 +1,2 @@
 # A drawing app
-It is app for drawing.
+It is an app for drawing.
